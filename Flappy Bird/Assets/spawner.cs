@@ -22,7 +22,7 @@ public class spawner : MonoBehaviour
          
         if (delay < 0){
             delay = 2f;
-            Instantiate(pipePrefab, new Vector3(3, Random.Range(minY, maxY), 0), Quaternion.identity);
+            Instantiate(pipePrefab, new Vector3(11, Random.Range(minY, maxY), 0), Quaternion.identity);
         }
    }
 }

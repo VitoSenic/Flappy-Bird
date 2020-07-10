@@ -7,6 +7,8 @@ TagManager:
   - Danger
   - New tag
   - ScoreText
+  - bScore
+  - cScore
   layers:
   - Default
   - TransparentFX

@@ -24,7 +24,7 @@ public class BirdController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.V)|| Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Space)|| Input.GetMouseButtonDown(0))
         {
             body.velocity = Vector2.zero;
             body.AddForce(new Vector2(0, flyvelocity));
