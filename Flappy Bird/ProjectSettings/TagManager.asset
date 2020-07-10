@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Danger
+  - New tag
+  - ScoreText
   layers:
   - Default
   - TransparentFX
