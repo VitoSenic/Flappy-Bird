@@ -8,7 +8,7 @@ public class spawner : MonoBehaviour
 
     float minY = -0.5f;
     float maxY = 2.5f;
-    float delay = 2f;
+    float delay = 1.4f;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +21,7 @@ public class spawner : MonoBehaviour
         delay -= Time.deltaTime;
          
         if (delay < 0){
-            delay = 2f;
+            delay = 1.4f;
             Instantiate(pipePrefab, new Vector3(11, Random.Range(minY, maxY), 0), Quaternion.identity);
         }
    }

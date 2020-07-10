@@ -13,6 +13,6 @@ public class pipeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(-Vector3.right * 3f * Time.deltaTime);
+        transform.Translate(-Vector3.right * 4f * Time.deltaTime);
     }
 }
